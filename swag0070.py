@@ -1,0 +1,26 @@
+fruit=["apple","kiwi","orange"]
+fruit[1:3]=["watermelon",3]
+print(fruit)
+fruit.remove("apple")
+print(fruit)
+fruit.pop(1)
+print(fruit)
+a=["akshay",9,"athira",5,"adithya",8]
+a.pop()
+print(a)
+#del a
+#print(a)
+a.clear()
+print(a)
+a.append(3)
+print(a)
+#reverse
+b=[2,4,5,8,6]
+print(b)
+b.reverse()
+print(b)
+c=[4,8,8,3,2,9,6]
+c.reverse()
+print(c)
+c.sort(reverse=True)
+print(c)

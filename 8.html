@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<p id="sa"></p>
+<script>
+var name="Athena Erudition"
+var l=name.length;
+document.getElementById('sa').innerHTML=l;
+</script>
+<script>
+    var fruit="Banana,Grape,Kiwi"
+    document.write(fruit.slice(-17,-11)+"<br>")
+    document.write(fruit.slice(7,)+"<br>")
+</script>
+<p id="fd">out put is :</p>
+<p>substring : <span id="df"></span> </p>
+<script>
+    var car="BMW,AUDI,MARUTHI,FORD"
+    var p=car.substr(9,7);
+    document.getElementById('fd').innerHTML=p;
+    document.getElementById('df').innerHTML=car.substring(4,8);
+</script>
+
+<!--#STRING REPLACE-->
+<button type="button" onclick="data()">click</button>
+<p id="raw">data is collection of unorganised raw fact and figures.may not have specific meaning</p>
+<script>
+    function data()
+                {
+                 let xd=document.getElementById('raw').innerHTML;
+                 df=xd.replace("collection","information");
+                 document.getElementById('raw').innerHTML=df;
+                }
+</script>
+</body>
+</html>

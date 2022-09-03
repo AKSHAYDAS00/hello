@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user</title>
+</head>
+<body>
+enter  first name : <input type="text" name="foname" id="das">
+Enter last name   :<input type="text" name="lname" id="saas">
+<button type="button"  onclick="mainn()">click here</button>
+<br><br><br>
+
+full name :  <p id="anss"></p>
+<script>
+
+    function mainn()
+    {
+      var z=document.getElementById('das').value;
+      //document.getElementById('anss').innerHTML=z;
+      var o=document.getElementById('saas').value;
+      document.getElementById('anss').innerHTML=z+" "+o
+    }
+
+</script>
+
+</body>
+</html>

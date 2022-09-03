@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wishes</title>
+</head>
+<body>
+<p>Hi  :<span id="cat"> </span> </p>
+<p>current time is  :<span id="dt"> </span> </p>
+<script>
+   const d=new Date();
+
+   x=d.getHours();
+
+   document.getElementById('dt').innerHTML=x;
+if (x< 12)
+{
+  y='good morning'
+} else if (x < 18)
+    {
+    y='good afternoon'
+    }
+ else
+{
+  y='good evening'
+}
+document.getElementById('cat').innerHTML=y;
+
+
+</script>
+
+</body>
+</html>

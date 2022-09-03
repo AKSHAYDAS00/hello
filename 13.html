@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>date&time</title>
+</head>
+<p >today date is  :<span id="dt"></span> </p>
+<p id="xc"></p>
+<p id="xa"></p>
+<p id="xb"></p>
+<p id="xd"></p>
+<body>
+<script>
+   const d=new Date();          <!--to get current date-->
+   document.getElementById('dt').innerHTML=d;
+   document.getElementById('xc').innerHTML=d.getFullYear();
+   document.getElementById('xa').innerHTML=d.getMonth();
+   document.getElementById('xb').innerHTML=d.getHours();
+   document.getElementById('xd').innerHTML=d.getMinutes();
+</script>
+</body>
+</html>

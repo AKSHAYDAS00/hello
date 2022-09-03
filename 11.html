@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="fsat"></p>
+<p id="loki"></p>
+<script>
+
+    let a=[10,20,"hello",30,40]
+    document.write(a+"<br>")
+    document.write(typeof a+"<br>")
+
+    document.write(a.length+"<br>")
+    document.write(a[2]+"<br>")
+    var x=a.toString() +"<br>"
+    document.write(x+"<br>")
+    document.write(typeof x +"<br>")
+let s=[1,2,3,4,5,"kiwi","apple",6,7,8]
+document.getElementById('fsat').innerHTML=s.pop()    <!--remove last value-->
+document.write(s+"<br>")
+document.getElementById('loki').innerHTML=s.push("orange");
+<!--s.push(""mango")-->
+document.write(s +"<br>")
+
+s.shift();     <!--remove first value-->
+document.write(s +"<br>")
+
+
+s.unshift("banana")
+document.write(s+"<br>")
+
+s.sort()
+document.write(s+"<br>")
+
+s.reverse()
+document.write(s)
+
+</script>
+</body>
+</html>
